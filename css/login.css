@@ -204,3 +204,35 @@ h5>a {
 .right-main > button {
     margin-top: 10px;
 }
+
+@media screen and (max-width: 500px) {
+    .login {
+        margin: 1rem;
+        box-sizing: border-box;
+    }
+
+    .left-main {
+        display: none;
+    }
+
+    .right-main {
+        box-sizing: border-box;
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .right-main>div {
+        width: 90%;
+    }
+
+    .right-main >button {
+        width: 90%;
+    }
+
+    .right-main > span {
+        width: 90%;
+    }
+}
